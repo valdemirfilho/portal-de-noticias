@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/index.css">
+  <title>Portal de notícias - Tech News</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <nav id="primary" class="grid grid-flow-col">
+        <div>
+          <img src="assets/icons/list.svg" alt="menu icon">
+        </div>
+        <div>
+          <img src="assets/logo-tech-news.svg" alt="logo tech news">
+        </div>
+        <div>
+          <strong>Buscar</strong>
+          <img src="assets/icons/magnifying-glass.svg" alt="search icon">
+        </div>
+      </nav>
+
+      <nav id="secondary" class="grid grid-flow-col">
+        <a href="#">Inteligência Artificial</a>
+        <a href="#">Blockchain</a>
+        <a href="#">Hologramas</a>
+        <a href="#">Vestíveis</a>
+        <a href="#">Internet</a>
+        <a href="#">Realidade Aumentada</a>
+        <a href="#">Realidade Virtual</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="featured" class="grid grid-flow-col gap-16">
+        <div class="card">
+          <button class="modal-trigger" popovertarget="news1">
+            <figure>
+              <img class="card__image" src="assets/images/image_01.png" alt="">
+              <figcaption class="card__content">
+                <span class="card__tag">robótica</span>
+                <h2 class="card__title">Robôs domésticos começam a ser adotados para tarefas diárias, prometendo mais conforto e eficiência nas residências.</h2>
+              </figcaption>
+            </figure>
+          </button>
+        </div>
+
+        <dialog id="news1" class="modal" popover="auto" scroll-lock>
+          <div class="modal__header">
+            <div>
+              <span class="modal__tag">robótica</span>
+              <h2 class="modal__title">Robôs Domésticos Começam a Ser Adotados para Tarefas Diárias, Prometendo Mais Conforto e Eficiência nas Residências</h2>
+            </div>
+            <img src="assets/images/image_01.png" alt="" class="modal__image">
+          </div>
+
+          <div class="modal__content">
+            <p>
+              Nos últimos anos, a tecnologia avançou a passos largos, trazendo inovações que estão transformando a maneira como vivemos. Uma das novidades mais empolgantes é a adoção crescente de robôs domésticos para realizar tarefas diárias. Esses dispositivos prometem trazer mais conforto e eficiência para as residências, aliviando os moradores de atividades rotineiras e repetitivas.
+            </p>
+
+            <p>
+              Os robôs domésticos já não são mais apenas conceitos futuristas vistos em filmes de ficção científica. Hoje, eles estão se tornando uma realidade acessível para muitas famílias ao redor do mundo. Entre as tarefas mais comuns realizadas por esses robôs estão a limpeza do chão, lavagem de janelas, jardinagem e até mesmo a preparação de refeições simples.
+            </p>
+
+            <h3>Vantagens dos Robôs Domésticos</h3>
+
+            <p>
+              Uma das principais vantagens dos robôs domésticos é a economia de tempo. Com a vida cada vez mais corrida, ter um dispositivo que pode cuidar da limpeza da casa, por exemplo, permite que as pessoas se concentrem em outras atividades mais importantes ou relaxem após um longo dia de trabalho.
+            </p>
+
+            <p>
+              Além disso, os robôs são programados para realizar suas tarefas com precisão e consistência, garantindo um padrão de qualidade que muitas vezes não é alcançado em tarefas manuais. Isso significa que a limpeza será feita de forma mais eficiente e regular, contribuindo para um ambiente doméstico mais saudável e agradável.
+            </p>
+
+            <h3>Conforto e Conveniência</h3>
+
+            <p>
+              A conveniência é outro fator decisivo na adoção dos robôs domésticos. Muitos desses dispositivos podem ser controlados por meio de aplicativos de smartphones, permitindo que os usuários programem e monitorem as tarefas remotamente. Imagine estar no trabalho e, com apenas alguns toques no celular, acionar o robô aspirador para limpar a sala antes de você chegar em casa.
+            </p>
+
+            <h3>Perspectivas Futuras</h3>
+
+            <p>
+              O futuro dos robôs domésticos é promissor. Com o avanço contínuo da inteligência artificial e da robótica, espera-se que esses dispositivos se tornem ainda mais sofisticados, capazes de realizar tarefas mais complexas e interagir de maneira mais intuitiva com os moradores da casa. A integração com outros dispositivos inteligentes, como assistentes virtuais, também promete tornar a vida doméstica ainda mais conectada e eficiente.
+            </p>
+
+            <p>
+              Em resumo, a adoção de robôs domésticos está crescendo rapidamente, trazendo benefícios significativos para o dia a dia das pessoas. Ao assumir tarefas diárias, esses robôs não apenas economizam tempo, mas também proporcionam um nível de conforto e conveniência que antes parecia inalcançável. Com o contínuo avanço tecnológico, podemos esperar que os robôs domésticos se tornem uma parte essencial das nossas vidas, transformando nossas casas em ambientes ainda mais inteligentes e agradáveis.
+            </p>
+          </div>
+        </dialog>
+
+        <div class="grid grid-cols-2 gap-16">
+          <div class="card-small">
+            <button class="modal-trigger" popovertarget="news2">
+              <figure>
+                <img class="card__image" src="assets/images/image_02.png" alt="">
+                <figcaption class="card__content">
+                  <span class="card__tag">hologramas</span>
+                  <h2 class="card__title">Novo Smartphone Projetor 3D chega ao mercado, transformando a forma como vemos nossas telas!</h2>
+                </figcaption>
+              </figure>
+            </button>
+          </div>
+
+          <div class="card-small">
+            <button class="modal-trigger" popovertarget="news3">
+              <figure>
+                <img class="card__image" src="assets/images/image_03.png" alt="">
+                <figcaption class="card__content">
+                  <span class="card__tag">Internet</span>
+                  <h2 class="card__title">Tecnologia 6G chega às metrópoles brasileiras, prometendo revolucionar a forma como vivemos e nos comunicamos.</h2>
+                </figcaption>
+              </figure>
+            </button>
+          </div>
+
+          <div class="card-small">
+            <button class="modal-trigger" popovertarget="news4">
+              <figure>
+                <img class="card__image" src="assets/images/image_04.png" alt="">
+                <figcaption class="card__content">
+                  <span class="card__tag">Vestíveis</span>
+                  <h2 class="card__title">Empresa lança relógio inteligente capaz de monitorar a saúde mental, oferecendo insights valiosos para o bem-estar pessoal.</h2>
+                </figcaption>
+              </figure>
+            </button>
+          </div>
+
+          <div class="card-small">
+            <button class="modal-trigger" popovertarget="news5">
+              <figure>
+                <img class="card__image" src="assets/images/image_05.png" alt="">
+                <figcaption class="card__content">
+                  <span class="card__tag">Realidade Virtual</span>
+                  <h2 class="card__title">Escolas adotam a tecnologia VR para proporcionar experiências imersivas, transformando a aprendizagem tradicional.</h2>
+                </figcaption>
+              </figure>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="most-read">
+        <div class="most-read__header">
+          <h3 class="most-read__title">Mais lidas da semana</h3>
+          <a class="link" href="#">Ver tudo <span class="most-read__icon"></span> </a>
+        </div>
+
+        <div id="cards" class="grid grid-cols-4 gap-16">
+          <div class="card-small-2">
+            <button class="modal-trigger" popovertarget="news6">
+              <figure>
+                <img class="card__image" src="assets/images/image_06.png" alt="">
+                <figcaption class="card__content">
+                  <span class="card__tag">Veículos</span>
+                  <h2 class="card__title">Protótipo de veículo voador é apresentado, marcando o início da era dos transportes aéreos pessoais.</h2>
+                </figcaption>
+              </figure>
+            </button>
+          </div>
+
+          <div class="card-small-2">
+            <button class="modal-trigger" popovertarget="news7">
+              <figure>
+                <img class="card__image" src="assets/images/image_07.png" alt="">
+                <figcaption class="card__content">
+                  <span class="card__tag">Hologramas</span>
+                  <h2 class="card__title">Plataforma de videoconferência apresenta nova função de hologramas, tornando as chamadas virtuais mais realistas e envolventes.</h2>
+                </figcaption>
+              </figure>
+            </button>
+          </div>
+
+          <div class="card-small-2">
+            <button class="modal-trigger" popovertarget="news6">
+              <figure>
+                <img class="card__image" src="assets/images/image_08.png" alt="">
+                <figcaption class="card__content">
+                  <span class="card__tag">Realidade Virtual</span>
+                  <h2 class="card__title">Nova geração de consoles de videogame é lançada, trazendo gráficos ultra-realistas e experiências de jogo totalmente envolventes.</h2>
+                </figcaption>
+              </figure>
+            </button>
+          </div>
+
+          <div class="card-small-2">
+            <button class="modal-trigger" popovertarget="news6">
+              <figure>
+                <img class="card__image" src="assets/images/image_09.png" alt="">
+                <figcaption class="card__content">
+                  <span class="card__tag">Internet</span>
+                  <h2 class="card__title">Protótipo de veículo voador é apresentado, marcando o início da era dos transportes aéreos pessoais.</h2>
+                </figcaption>
+              </figure>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <div id="sections-wrapper">
+        <section>
+          <h2>Destaques de Inteligência Artificial</h2>
+          <a class="link" href="#">Ver tudo <span class="most-read__icon"></span> </a>
+        </section>
+
+        <div>
+          <img src="assets/ads.png" alt="adsense">
+        </div>
+
+        <section>
+
+        </section>
+      </div>
+    </main>
+
+  </div>
+
+</body>
+
+</html>

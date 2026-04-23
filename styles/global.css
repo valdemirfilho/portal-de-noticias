@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brand-color-light: #60a5fa;
+  --brand-color-dark: #1d4ed8;
+
+  --bg-color: #0f172a;
+  --stroke-color: #1e293b;
+
+  --text-color-primary: #f1f5f9;
+  --text-color-secondary: #cbd5e1;
+
+  --font-family: "Archivo", sans-serif;
+
+  --heading1: 800 1.5rem/1.35 var(--font-family); /* 24px */
+  --heading2: 800 1rem/1.4 var(--font-family); /* 16px */
+  --heading3: 800 0.875rem/1.4 var(--font-family); /* 14px */
+  --text-span: 600 0.875rem/1.4 var(--font-family); /* 14px */
+  --text: 400 1rem/1.4 var(--font-family); /* 16px */
+  --text-sm: 400 0.875rem/1.6 var(--font-family); /* 14px */
+}
+
+body {
+  color: var(--text-color-primary);
+  background-color: var(--bg-color);
+  font: var(--text);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  height: 100%;
+}
+
+.modal-trigger {
+  appearance: none;
+  border: none;
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 20px;
+}
+
+main {
+  margin-top: 40px;
+  display: grid;
+  gap: 80px;
+}
+
+h1,
+h2,
+h3 {
+  font: inherit;
+}
